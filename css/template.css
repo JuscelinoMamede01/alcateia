@@ -1,5 +1,7 @@
 /* ROCK CLUB */
-
+html {
+    scroll-behavior: smooth;
+}
 /* Vermelho: color:#E60000; */
 
 body {
