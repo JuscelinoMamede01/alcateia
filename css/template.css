@@ -39,6 +39,27 @@ section.container {
 	width: 40%;
 	margin-top: 10px;
 }
+.logo-footer{
+	text-align: center;
+	width: 60%;
+	
+}
+.section-1,
+.section-2,
+.section-3 {
+    height: 500px;
+}
+.section-1{
+	background-color:#DBDBDB;
+	color:#0F1011;
+}
+.section-2{
+	background-color:#0F1011;
+}
+.section-3{
+	color:#0F1011;
+	background-color:#DBDBDB;
+}
 
 
 
