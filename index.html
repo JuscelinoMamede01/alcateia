@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script id="facebook-jssdk" src="js/all.js#xfbml=1"></script>
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <link rel="stylesheet" href="css/normalize.css" type="text/css" />
+    <link rel="stylesheet" href="css/skeleton.css" type="text/css" />
+    <link rel="stylesheet" href="css/fonts.css" type="text/css" />
+    <link rel="stylesheet" href="css/text.css" type="text/css" />
+    <link rel="stylesheet" href="css/template.css" type="text/css" />
+    <link rel="stylesheet" href="css/form.css" type="text/css" />
+
+    <meta
+      name="description"
+      content="Bar Rock Club São Bernardo, o melhor bar Rock'n'Roll do ABC."
+    />
+    <meta name="generator" content="Art Lab Design" />
+    <title>Bar Rock Club - Home</title>
+    <link
+      href="/?format=feed&amp;type=rss"
+      rel="alternate"
+      type="application/rss+xml"
+      title="RSS 2.0"
+    />
+    <link
+      href="/?format=feed&amp;type=atom"
+      rel="alternate"
+      type="application/atom+xml"
+      title="Atom 1.0"
+    />
+    <link
+      href="favicon.ico"
+      rel="shortcut icon"
+      type="image/vnd.microsoft.icon"
+    />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <style type="text/css">
+      /* Styles for DJ Image Slider with module id 95 */
+      #djslider-loader95 {
+        margin: 0 auto;
+        position: relative;
+      }
+      #djslider95 {
+        margin: 0 auto;
+        position: relative;
+        height: 708px;
+        width: 450px;
+        max-width: 450px;
+      }
+      #slider-container95 {
+        position: absolute;
+        overflow: hidden;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+      }
+      #djslider95 ul#slider95 {
+        margin: 0 !important;
+        padding: 0 !important;
+        border: 0 !important;
+      }
+      #djslider95 ul#slider95 li {
+        list-style: none outside !important;
+        float: left;
+        margin: 0 !important;
+        border: 0 !important;
+        padding: 0 0px 0px 0 !important;
+        position: relative;
+        height: 708px;
+        width: 450px;
+        background: none;
+        overflow: hidden;
+      }
+      #slider95 li img {
+        width: 100%;
+        height: auto;
+        border: 0 !important;
+        margin: 0 !important;
+      }
+      #slider95 li a img,
+      #slider95 li a:hover img {
+        border: 0 !important;
+      }
+    </style>
+    <script src="js/mootools-core.js" type="text/javascript"></script>
+    <script src="js/core.js" type="text/javascript"></script>
+    <script src="js/caption.js" type="text/javascript"></script>
+    <script src="js/mootools-more.js" type="text/javascript"></script>
+    <script src="js/powertools-1.2.0.js" type="text/javascript"></script>
+    <script src="js/slider.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      window.addEvent("load", function () {
+        new JCaption("img.caption");
+      });
+      (function ($) {
+        window.addEvent("domready", function () {
+          this.Slider95 = new DJImageSliderModule(
+            {
+              id: "95",
+              slider_type: 2,
+              slide_size: 450,
+              visible_slides: 1,
+              show_buttons: 0,
+              show_arrows: 0,
+              preload: 800,
+            },
+            {
+              auto: 1,
+              transition: Fx.Transitions.linear,
+              duration: 600,
+              delay: 6600,
+            }
+          );
+        });
+      })(document.id);
+    </script>
+
+    <script>
+      $(document).ready(function () {
+        $("#nav-mobile").html($("#nav-main").html());
+        $("#nav-trigger span").click(function () {
+          if ($("nav#nav-mobile ul").hasClass("expanded")) {
+            $("nav#nav-mobile ul.expanded")
+              .removeClass("expanded")
+              .slideUp(250);
+            $(this).removeClass("open");
+          } else {
+            $("nav#nav-mobile ul").addClass("expanded").slideDown(250);
+            $(this).addClass("open");
+          }
+        });
+      });
+    </script>
+
+    <script>
+      $(document).ready(function () {
+        $(".agenda img").addClass("seven columns alpha agendaimg");
+      });
+    </script>
+
+    <script>
+      $(document).ready(function () {
+        $(".content").addClass("twelve columns");
+        $(".sidebar").addClass("none");
+      });
+    </script>
+  </head>
+
+  <body>
+    <script>
+      (function (d, s, id) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1";
+        fjs.parentNode.insertBefore(js, fjs);
+      })(document, "script", "facebook-jssdk");
+    </script>
+
+    <header>
+      <div class="container container-twelve">
+        <div class="three columns logo">
+          <div class="custom">
+            <p class="logoP">
+              <a href="/"
+                ><img
+                  class="logo"
+                  title="Bar Rock Club - Home"
+                  src="images/Logo_oficial.png"
+                  alt="logo rockclub sbc"
+              /></a>
+            </p>
+          </div>
+        </div>
+        <div class="nine columns">
+          <div id="nav-trigger">
+            <!--Menu Mobile-->
+            <span>Menu</span>
+          </div>
+          <nav id="nav-main">
+            <ul class="menu">
+              <li class="item-101 current active"><a href="/">Home</a></li>
+              <li class="item-110"><a href="/o-bar">O Bar</a></li>
+              <li class="item-113"><a href="/agenda">Agenda</a></li>
+              <li class="item-114"><a href="/aniversarios">Aniversários</a></li>
+              <li class="item-183">
+                <a
+                  href="https://www.facebook.com/pg/BarRockClub/photos/?tab=albums"
+                  target="_blank"
+                  >Fotos</a
+                >
+              </li>
+              <li class="item-116"><a href="/localizacao">Localização</a></li>
+            </ul>
+          </nav>
+          <nav id="nav-mobile"></nav>
+          <!--Menu Mobile-->
+        </div>
+      </div>
+    </header>
+
+    <section class="container container-twelve">
+      <article class="content">
+        <!--
+<div id="system-message-container">
+</div>-->
+        <div class="blog-featured home"></div>
+      </article>
+
+      <aside class="sidebar"></aside>
+    </section>
+
+    <section class="container container-twelve">
+      <div class="six columns rotativo">
+        <div class="moduletable">
+          <div style="border: 0px !important">
+            <div id="djslider-loader95" class="djslider-loader">
+              <div id="djslider95" class="djslider">
+                <div id="slider-container95" class="slider-container">
+                  <ul id="slider95">
+                    <li>
+                      <img
+                        src="images/00000%20informativo.jpg"
+                        alt="comunicado"
+                      />
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div style="clear: both"></div>
+        </div>
+        <div class="moduletable video">
+          <div class="custom video">
+            <h4>
+              Assista o vídeo e descubra porque o Rock Club é o melhor bar
+              rock'n'roll do ABC!
+            </h4>
+            <iframe
+              width="96%"
+              height="380"
+              src="https://www.youtube.com/embed/Od11ny5Xl6I?rel=0"
+              frameborder="0"
+              allowfullscreen="allowfullscreen"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+
+      <div class="six columns destaques">
+        <article class="three columns alpha destaque1">
+          <div class="destaque1top"></div>
+          <div class="moduletable">
+            <h3>O BAR ROCK CLUB</h3>
+
+            <div class="custom">
+              <p>
+                O melhor bar rock'n roll do ABC, localizado no centro de São
+                Bernardo do Campo, dentro do tradicional Clube Bochófilo, a
+                menos de 200 metros da Faculdade FASB e com fácil acesso pelas
+                principais e mais conhecidas avenidas da cidade.
+              </p>
+              <a href="/o-bar" class="btn1">SAIBA MAIS</a
+              ><br data-mce-bogus="1" /><a href="/o-bar/210-tour-virtual-360"
+                ><img src="images/tour_360_thumb.png" alt="tour 360 thumb" /></a
+              ><br data-mce-bogus="1" /><a
+                href="/o-bar/210-tour-virtual-360"
+                class="btn2"
+                >FAÇA UMA TOUR VIRTUAL 360°</a
+              ><br data-mce-bogus="1" /><a href="/o-bar/211-fotos-da-casa"
+                ><img src="images/foto_bar_thumb.png" alt="foto bar thumb" /></a
+              ><br data-mce-bogus="1" /><a
+                href="/o-bar/211-fotos-da-casa"
+                class="btn3"
+                >VEJA FOTOS DA CASA</a
+              >
+            </div>
+          </div>
+
+          <div class="destaque1bottom"></div>
+        </article>
+
+        <article class="three columns omega destaque2">
+          <div class="destaque2top"></div>
+          <div class="moduletable">
+            <h3>AGENDA</h3>
+            <ul class="category-module">
+              <li>
+                <h4>
+                  <a
+                    class="mod-articles-category-title"
+                    href="/agenda/1020-acompanhem-nossa-programacao-nas-nossas-redes-sociais"
+                  >
+                    Acompanhem nossa programação nas nossas redes sociais!!!
+                  </a>
+                </h4>
+              </li>
+            </ul>
+          </div>
+
+          <div class="destaque2bottom"></div>
+        </article>
+
+        <div class="clear"></div>
+
+        <article class="three columns alpha destaque3">
+          <div class="destaque3top"></div>
+          <div class="moduletable">
+            <h3>FOTOS</h3>
+
+            <div class="custom">
+              Clique e acesse os álbuns de fotos do Rock Club.<br /><br /><a
+                href="https://www.facebook.com/pg/BarRockClub/photos/?tab=albums"
+                target="_blank"
+                ><img src="images/fotos_sbc.jpg" alt="fotos sbc" /></a
+              ><br /><br /><a
+                href="https://www.facebook.com/pg/BarRockClub/photos/?tab=albums"
+                target="_blank"
+                class="btn3"
+                >Ver todas as fotos</a
+              >
+            </div>
+          </div>
+
+          <div class="destaque3bottom"></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="container form-section">
+      <form
+        action="https://formspree.io/f/myyqnllj"
+        method="POST"
+        class="form container"
+      >
+        <div class="thirteen container">
+          <h1>Fale conosco</h1>
+        </div>
+        <div>
+          <input
+            type="text"
+            class="input-swing-down input-form"
+            id="nome"
+            name="nome"
+            placeholder="Nome"
+            autocomplete="off"
+            required=""
+          />
+          <label for="nome"> <i class="icon icon-user-outline"></i> </label>
+        </div>
+
+        <div>
+          <input
+            type="text"
+            class="input-swing-down"
+            id="email"
+            name="email"
+            placeholder="E-mail"
+            autocomplete="off"
+            required=""
+          />
+          <label for="email"> <i class="icon icon-mail-3"></i> </label>
+        </div>
+
+        <div>
+          <input
+            type="text"
+            class="input-swing-down"
+            id="assunto"
+            name="assunto"
+            placeholder="Assunto"
+            autocomplete="off"
+            required=""
+          />
+          <label for="assunto"> <i class="icon icon-info"></i> </label>
+        </div>
+
+        <div>
+          <textarea
+            type="text"
+            class="textarea-swing-down"
+            id="mensagem"
+            name="mensagem"
+            rows="3"
+            placeholder="Mensagem"
+            autocomplete="off"
+            required=""
+          ></textarea>
+          <label for="mensagem"> <i class="icon icon-bubble-4"></i> </label>
+        </div>
+
+        <div class="box-btn">
+          <button type="submit" class="btn-3d">
+            <i class="icon icon-forward-1"> Enviar</i>
+          </button>
+        </div>
+      </form>
+
+      <!--Box Formulario-->
+    </section>
+
+    <footer>
+      <div class="container container-twelve">
+        <div class="three columns logo">
+          <div class="custom">
+            <a href="/index.php"
+              ><img src="images/logo_rockclub_sbc.png" alt="logo rockclub sbc"
+            /></a>
+          </div>
+        </div>
+        <div class="five columns endereco">
+          <div class="custom">
+            <p>
+              Rua Oscar Raposo, 173 - Bairro Prado<br />RECIFE - PE<br />Fones:
+              (11) 99913-7660 • (81)98356-7283 (Whatsapp)<br />E-mail:
+              <a href="mailto:alcateiasolidario@gmail.com"
+                >alcateiasolidario@gmail.com</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="four columns face">
+          <div class="moduletable">
+            <div class="custom">
+              <div
+                class="fb-like-box"
+                data-href="http://www.facebook.com/BarRockClub"
+                data-width="288"
+                data-height="185"
+                data-show-faces="true"
+                data-colorscheme="dark"
+                data-stream="false"
+                data-header="false"
+              >
+                �&nbsp;
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container container-twelve copyright">
+        <p>
+          Copyright © Alcateia RockClube. Todos os direitos reservados.
+          Desenvolvido por
+          <a href="#" target="_blank">Equipe Alcateia</a>.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

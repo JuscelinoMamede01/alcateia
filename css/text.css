@@ -1,0 +1,119 @@
+/*
+  960 Grid System ~ Text CSS.
+  Learn more ~ http://960.gs/
+
+  Licensed under GPL and MIT.
+*/
+
+/* `Basic HTML
+----------------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: 'SignikaRegular';
+	font-size: 16px;
+	font-weight:lighter;
+	color: #fff;
+}
+a {color: #fff; text-decoration:underline;	}
+a:hover {text-decoration:none;
+}	
+pre,
+code {
+  font-family: 'DejaVu Sans Mono', Menlo, Consolas, monospace;
+}
+
+hr {
+  border: 0 #ccc solid;
+  border-top-width: 1px;
+  clear: both;
+  height: 0;
+}
+
+strong {
+    font-family: 'SignikaBold';
+	font-weight:lighter;
+}
+
+
+/* `Headings
+----------------------------------------------------------------------------------------------------*/
+
+h1 {
+	margin-top:10px;
+	font-size: 1.8em;
+	font-family: 'ExoBold';
+	font-weight: lighter;
+	color:#fff;
+	letter-spacing:1px;
+	background-image:url(../images/sublinhado.png);
+	background-repeat: no-repeat;
+	background-position: left 35px;
+	min-height:48px;
+	text-transform:uppercase;
+}
+h2 {
+	margin-top:20px;
+	font-size: 24px;
+    font-family: 'ExoBold';
+	font-weight: lighter;
+	color:#fff;
+	letter-spacing: 1px;
+	background-image:url(../images/sublinhado_h2.png);
+	background-repeat: no-repeat;
+	background-position: left 27px;
+	min-height:39px;
+}
+h3 {
+	font-size: 23px;
+    font-family: 'ExoBold';
+	font-weight: lighter;
+	color:#D20000;
+}
+h4 {
+  font-size: 19px;
+}
+h5 {
+  font-size: 17px;
+  margin-top:0px;
+  margin-bottom:20px;
+}
+
+h6 {
+  font-size: 15px;
+}
+
+/* `Spacing
+----------------------------------------------------------------------------------------------------*/
+
+ol {
+  list-style: decimal;
+}
+
+ul {
+  list-style: disc;
+  color: #FFF;
+}
+
+li {
+  margin-left: 20px;
+}
+
+p,
+dl,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+pre,
+address,
+fieldset,
+figure {
+  margin-bottom: 10px;
+}
+
+

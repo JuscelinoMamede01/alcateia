@@ -1,0 +1,745 @@
+/* ROCK CLUB */
+
+/* Vermelho: color:#E60000; */
+
+body {
+	background-image: url(../images/pattern-black.png);
+	background-color: #000;
+	background-repeat: repeat;
+	box-sizing: border-box;
+
+}
+
+header {
+	min-height: 130px;
+	background-image: url(../images/bg_header.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	/*padding-bottom:20px;*/
+}
+
+header p,
+header ul {
+	margin: 0;
+	padding: 0;
+}
+
+.content {
+	background-image: url(../images/bg_content.png);
+	background-repeat: repeat;
+}
+
+section.container {
+	margin-top: 2%;
+
+}
+
+.logo {
+	text-align: center;
+	width: 40%;
+	margin-top: 10px;
+}
+
+
+
+.rotativo {
+	margin-top: 20px;
+}
+
+.video {
+	margin-top: 10%;
+}
+
+.destaques h3 {
+	text-align: center;
+	margin-top: 0
+}
+
+.destaques p {
+	margin: 0 5px 0 15px;
+}
+
+.destaque1 .moduletable {
+	background: #1b1b1b;
+	display: block
+}
+
+.destaque2 .moduletable,
+.destaque3 .moduletable,
+.destaque4 .moduletable,
+.sidebar_agenda {
+	background: #1b1b1b;
+	padding-bottom: 10px;
+	display: block
+}
+
+.destaque1 {
+	font-size: 13px;
+	line-height: 18px;
+}
+
+.destaque1top {
+	background: url(../images/destaque1_01.png) top right no-repeat;
+	height: 34px;
+	margin-top: 20px;
+}
+
+.destaque1bottom {
+	background: url(../images/destaque1_03.png) bottom right no-repeat;
+	height: 70px;
+	margin-top: 0;
+}
+
+.destaque1 .moduletable .custom p {
+	margin: 0 5px 5px 15px;
+
+}
+
+.destaque1 .moduletable .custom a {
+	margin: 2px 2px 0px 15px;
+	display: block;
+}
+
+.destaque1 .moduletable .custom img {
+	margin: 0 0 -17px 0;
+	width: 93%;
+}
+
+.destaque1 a,
+.destaque3 a {
+	background-repeat: no-repeat;
+	text-decoration: none;
+	font-family: 'SignikaBold';
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+a.btn1 {
+	padding: 4px 22px 5px 20px;
+	background-image: url(../images/btn1.png);
+}
+
+a.btn2 {
+	padding: 4px 5px 5px 5px;
+	background-image: url(../images/btn4.png);
+}
+
+a.btn3 {
+	padding: 4px 5px 5px 5px;
+	background-image: url(../images/btn5.png);
+}
+
+.destaque2 {
+	font-size: 13px;
+	line-height: 16px;
+	float: left;
+	margin-top: 20px;
+}
+
+.destaque2 li {
+	margin: 10px;
+	list-style: none;
+}
+
+.destaque2 h4 {
+	font-size: 13px;
+	font-family: 'SignikaRegular';
+	font-weight: lighter;
+	margin-bottom: 6px;
+	line-height: 15px;
+}
+
+.destaque2 h4 a {
+	text-decoration: none;
+}
+
+.destaque2 h4 a:hover {
+	text-decoration: underline;
+}
+
+.destaque2top {
+	background: url(../images/destaque2_01.png) top right no-repeat;
+	height: 34px;
+}
+
+.destaque2bottom {
+	background: url(../images/destaque2_03.png) bottom right no-repeat;
+	height: 55px;
+	margin-top: 0;
+}
+
+.none {
+	display: none !important;
+}
+
+.sidebar_agenda {
+	float: none;
+	margin-top: 0;
+	display: block;
+}
+
+.sidebar_agenda h3 {
+	text-align: center;
+	padding-top: 0;
+	margin-top: 0;
+}
+
+.sidebar_agenda ul {
+	background-image: none;
+}
+
+.sidebar_agenda li {
+	margin: 5px 10px !important;
+}
+
+
+.destaque3 {
+	margin-top: 20px;
+	font-size: 13px;
+	line-height: 16px;
+	float: left;
+}
+
+.destaque3 .custom {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.destaque3 img {
+	width: 100%;
+	height: auto;
+}
+
+.destaque3top {
+	background: url(../images/destaque1_01.png) top right no-repeat;
+	height: 34px;
+}
+
+.destaque3bottom {
+	background: url(../images/destaque1_03.png) bottom right no-repeat;
+	height: 70px;
+	margin-top: 0;
+}
+
+
+
+
+.destaque4 {
+	margin-top: 20px;
+	font-size: 13px;
+	line-height: 16px
+}
+
+.destaque4 .moduletable {
+	min-height: 200px;
+}
+
+.destaque4top {
+	background: url(../images/destaque3_01.png) top right no-repeat;
+	height: 34px;
+}
+
+.destaque4bottom {
+	background: url(../images/destaque3_03.png) bottom right no-repeat;
+	height: 90px;
+	margin-top: 0;
+}
+
+ul.category-module {
+	padding: 0;
+}
+
+.formtxt {
+	font-size: 12px;
+}
+
+footer {
+	background: url(../images/pattern167dark.jpg) top center repeat;
+	padding-top: 35px;
+	font-size: 11px;
+	margin-top: 0;
+}
+
+.logos {
+	height: 130px;
+	background-color: #fff;
+	color: #666;
+}
+
+.logos p {
+	margin: 0;
+}
+
+.parceiro {
+	width: 143px;
+	float: left;
+}
+
+.parceiro1 {
+	width: 120px;
+	float: left;
+}
+
+.parceiro2 {
+	width: 166px;
+	float: left;
+}
+
+.life {
+	text-align: left;
+	margin-top: 10px;
+}
+
+.life p {
+	float: left;
+	margin-top: 5px;
+}
+
+.life img {
+	float: left;
+	margin-left: 10px;
+}
+
+.endereco {
+	margin-top: 3%;
+	font-size: 12px;
+	line-height: 16px;
+	text-align: left;
+}
+
+.fb-like-box {
+	margin-left: 20px;
+}
+
+.copyright {
+	text-align: center;
+	font-size: 11px;
+	margin-top: 15px;
+	color: #7d7d7d;
+}
+
+.copyright a,
+.logos a {
+	color: #7d7d7d;
+	text-decoration: underline;
+}
+
+.copyright a:hover,
+.logos a:hover {
+	color: #999;
+	text-decoration: none;
+}
+
+.copyright p {
+	min-height: 20px;
+	margin-bottom: 0;
+	padding-bottom: 10px;
+}
+
+.cardapio li {
+	margin: 0;
+	list-style: none;
+}
+
+.cardapio h1 {
+	margin: 2% 2%;
+}
+
+.cardapio h2 {
+	margin: 2% 6%;
+	font-size: 24px;
+	font-family: 'ExoBold';
+	font-weight: lighter;
+	color: #fff;
+	letter-spacing: 1px;
+	background-image: url(../images/sublinhado_h2_cardapio.png);
+	background-repeat: no-repeat;
+	background-position: left 27px;
+	height: 35px;
+}
+
+.agenda,
+.fotos {
+	padding: 1% 4%;
+}
+
+.agenda .item {
+	margin-bottom: 50px;
+}
+
+.agenda h2 {
+	background-image: none;
+	height: 100%;
+}
+
+#ads {
+	min-height: 150px;
+	width: 100%;
+	text-align: center;
+	font-family: 'SignikaRegular';
+	font-weight: lighter;
+	font-size: 12px;
+	color: #000;
+	margin: 20px 0 0 0;
+	padding-bottom: 15px;
+	background: #ECECEC;
+}
+
+#ads p {
+	margin: 0;
+}
+
+#ads a {
+	color: #000;
+}
+
+.qg {
+	margin-top: 20px;
+}
+
+.loja {
+	margin-top: 10px;
+}
+
+.face {
+	text-align: center;
+}
+
+/* NAV */
+nav {
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	height: 35px;
+	min-width: 115px;
+	padding-top: 85px;
+	text-align: center;
+	margin: 0;
+	transition: all 0.5s ease 0s;
+}
+
+nav li a {
+	font-size: 17px;
+	color: #E60000;
+	text-decoration: none;
+	font-family: 'ExoBold';
+	font-weight: lighter;
+	text-shadow: 0px 5px 5px #000000;
+	text-transform: uppercase;
+	transition: all 0.5s ease 0s;
+
+}
+
+nav li:hover,
+nav li.active {
+	background-image: url(../images/luz.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+nav li a:hover,
+nav li.active a {
+	color: #fff;
+	text-shadow: 0px 5px 5px #000000;
+}
+
+li.item-101 {
+	display: none !important;
+}
+
+#nav-trigger {
+	/*width: 100%;*/
+	display: none;
+	text-align: right;
+}
+
+#nav-trigger span {
+	width: 100%;
+	position: relative;
+	z-index: 9999;
+	display: block;
+	display: inline-block;
+	padding: 2.4% 0 2% 0;
+	cursor: pointer;
+	font-family: 'ExoBold';
+	font-size: 1.2857em;
+	color: rgb(255, 255, 255);
+	margin-bottom: 0;
+	margin-top: 1.666%;
+	background: #900;
+}
+
+#nav-trigger span:after {
+	display: inline-block;
+	margin-left: 6.666%;
+	margin-right: 6.666%;
+	vertical-align: baseline;
+	content: url(../images/hamburger-w.png);
+}
+
+#nav-trigger span:hover {}
+
+#nav-trigger span.open:after {}
+
+nav#nav-main {}
+
+nav#nav-main ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav#nav-main li {
+	display: inline-block;
+}
+
+nav#nav-main li:last-child {}
+
+nav#nav-main a {
+	display: block;
+}
+
+nav#nav-main a:hover {}
+
+nav#nav-mobile {
+	position: relative;
+	display: none;
+	width: 100%;
+}
+
+nav#nav-mobile ul {
+	display: none;
+	list-style-type: none;
+	position: absolute;
+	z-index: 9999;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	background: #900;
+}
+
+nav#nav-mobile li {
+	display: block;
+	padding: 4px 0;
+	margin: 0 5px;
+	border-bottom: solid 1px #000;
+	background-image: none;
+}
+
+nav#nav-mobile li:last-child {
+	border-bottom: none;
+}
+
+nav#nav-mobile a {
+	display: block;
+	color: #FFF;
+	padding: 10px 30px;
+}
+
+nav#nav-mobile a:hover,
+nav#nav-mobile a:focus {
+	color: #F00;
+}
+
+/*===== NAV ======*/
+
+
+/* IGNITE */
+.cat_child {}
+
+.cat_child a {
+	text-decoration: none;
+}
+
+.cat_child a:hover {
+	text-decoration: underline;
+}
+
+.cat_child_h3 {
+	font-size: 13px;
+	min-height: 46px;
+	padding: 0 4px;
+	margin: 20px 0 0 0;
+}
+
+.cat_child img {
+	border: 1px solid #333;
+	background-color: #000;
+}
+
+.destaque3 div.cat_child {
+	float: none;
+	display: list-item;
+	list-style: none;
+}
+
+.destaque3 div.cat_child .cat_child_h3 {
+	font-size: 12px;
+}
+
+#cat_child_wrapperM105 {
+	margin: 0 auto;
+}
+
+table.main_thumb_table td img.ig_thumb {
+	border: 1px solid #333;
+	background-color: #000;
+}
+
+.fotos h2 {
+	margin-top: 15px;
+}
+
+/* IGNITE */
+
+
+
+
+
+/* JOOMLA CORE*/
+.items-row {
+	min-height: 10px;
+}
+
+.row-separator,
+.item-separator {
+	clear: both;
+}
+
+.cols-3 .column-1,
+.cols-3 .column-2,
+.cols-3 .column-3 {
+	display: inline-table;
+}
+
+.pagination li {
+	list-style: none;
+	float: left;
+	margin: 0 20px 0 0;
+}
+
+/*.blog, .item-page{float: left;}*/
+
+.container-twelve .nine.columns {
+	width: 659px;
+	padding: 10px 10px 0px 30px
+}
+
+
+/* Media queries idem Skeleton*/
+
+/* Anything smaller than standard 960 */
+@media only screen and (max-width: 959px) {
+	#nav-trigger {
+		display: block;
+	}
+
+	nav#nav-main {
+		display: none;
+	}
+
+	nav#nav-mobile {
+		display: block;
+	}
+}
+
+/* #Tablet Landscape, iPad Portrait - Design for a width of 768px */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	#nav-trigger {
+		margin-top: 52px;
+	}
+
+	.container-twelve .nine.columns {
+		width: 526px;
+		padding: 10px 10px 0px 20px
+	}
+
+	.cardapio h2 {
+		font-size: 1.2em;
+	}
+
+	.agendaimg {
+		padding: 0 !important;
+		width: 90% !important;
+	}
+
+	.destaque1 .moduletable .custom img {
+		width: 95%;
+	}
+
+	.destaque1 .moduletable .custom a.btn2 {
+		font-size: 11px;
+		padding: 4px 2px 5px;
+	}
+}
+
+/*	#Mobile (Portrait) Design for a width of 320px */
+@media only screen and (max-width: 767px) {
+	.container-twelve .nine.columns {
+		width: 280px;
+		padding: 5px 10px 0px 10px
+	}
+
+	.destaque2top {
+		margin-top: 5%;
+	}
+
+	.cardapio h1,
+	.agenda h1 {
+		font-size: 1.6em;
+	}
+
+	.agenda h2,
+	.fotos h2 {
+		font-size: 1.2em;
+	}
+
+	.agendaimg {
+		padding: 0 !important;
+		width: 98% !important;
+	}
+
+	.endereco {
+		text-align: center;
+	}
+
+	h2 {
+		background-image: none;
+	}
+
+	.destaque1 .moduletable .custom img {
+		width: 95%;
+	}
+}
+
+/* #Mobile (Landscape) Design for a width of 480px */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.container-twelve .nine.columns {
+		width: 390px;
+		padding: 5px 10px 0px 20px
+	}
+
+	.endereco {
+		text-align: center;
+	}
+
+	.destaque2top {
+		margin-top: 5%;
+	}
+
+	.agenda h2 {
+		font-size: 1.2em;
+	}
+
+	h2 {
+		background-image: none;
+	}
+
+	.destaque1 .moduletable .custom img {
+		width: 95%;
+	}
+}
