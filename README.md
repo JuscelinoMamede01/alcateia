@@ -9,7 +9,7 @@ Building...
 
 ## 🚀 Technologies
 
-This project was developed for my portfolio website using the following technologies:
+This project have been developed for my portfolio website using the following technologies:
 
 Building...
 
@@ -28,8 +28,6 @@ $ Building...
 
 ---
 
-by Juscelino Mamede 🎸
-
-JOHN 14:6 ✟
+by FICR web systems course
 
 
